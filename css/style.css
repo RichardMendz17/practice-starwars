@@ -24,6 +24,10 @@ h4{
     padding: .3rem;
     background-color: red;
 }
+.padding-blue{
+    padding: .3rem;
+    background-color: blue;
+}
 
 /*Header*/
 .barra{
