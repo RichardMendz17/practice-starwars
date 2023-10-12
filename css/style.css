@@ -1,0 +1,60 @@
+/*Fonts*/
+html{
+    font-size: 62.5%; /*Reset para REMS - 62.5% = 10px de 16 px*/
+    background-color: black;
+}
+
+/*Utilidades*/
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+h3{
+    font-size: 3 rem;
+}
+h4{
+    font-size: 2.6rem;
+}
+.centrar-texto{
+    text-align: center;
+}
+.padding-red{
+    padding: .3rem;
+    background-color: red;
+}
+
+/*Header*/
+.barra{
+    display: flex;
+    align-items: center;
+   
+}
+.header{
+    max-width: 100rem; /*= a 1200px*/
+    margin: 0 auto;
+    padding-top: .5rem;
+}
+/*Nav*/
+.nav a{
+    font-family: Arial;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem 0 1rem;
+}
+.nav a:hover{
+    color: red;
+}
+.social a{
+    padding: 0 .2rem 0 .2rem;
+}
+/*Search*/
+input[type="search"] {
+    width: 30rem; /* Ajusta el ancho según tus necesidades */
+    border: none;
+    padding: .7rem;
+    border-radius: 1rem; /* Ajusta el valor para controlar la curvatura de los bordes */
+    text-align: center;
+  }
